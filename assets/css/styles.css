@@ -190,7 +190,7 @@ img {
 /*===== HOME =====*/
 .home {
   position: relative;
-  row-gap: 5rem;
+  row-gap: 3rem;
   padding: 4rem 0 5rem;
 }
 
@@ -283,7 +283,7 @@ img {
 }
 
 .skills__text {
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-2);
 }
 
 .skills__data {
@@ -293,7 +293,7 @@ img {
   position: relative;
   font-weight: var(--font-semi);
   padding: .5rem 1rem;
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-2);
   border-radius: .5rem;
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
 }
@@ -320,19 +320,39 @@ img {
 }
 
 .skills__html {
-  width: 95%;
+  width: 80%;
 }
 
 .skills__css {
+  width: 75%;
+}
+
+.skills__bootstrap {
   width: 85%;
+}
+
+.skills__php {
+  width: 70%;
 }
 
 .skills__js {
   width: 65%;
 }
 
-.skills__ux {
-  width: 85%;
+.skills__docker {
+  width: 55%;
+}
+
+.skills__js {
+  width: 65%;
+}
+
+.skills__react {
+  width: 60%;
+}
+
+.skills__github {
+  width: 95%;
 }
 
 .skills__img {
