@@ -149,6 +149,7 @@ img {
 
 .nav__link:hover {
   position: relative;
+  color:black;
 }
 
 .nav__link:hover::after {
@@ -163,6 +164,11 @@ img {
 
 .nav__logo {
   color: var(--second-color);
+}
+
+.nav__logo:hover {
+  position: relative;
+  color:black;
 }
 
 .nav__toggle {
